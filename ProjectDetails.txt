@@ -1,0 +1,37 @@
+frontend/                               
+ ├── src/
+ │   ├── components/                  
+ │   │    └── Dashboard.js
+ │   ├── services/
+ │   │    └── api.js
+ │   ├── App.js
+ │   └── index.js
+ └── package.json
+
+backend/
+ ├── src/main/java/com/growsense/
+ │   ├── controller/
+ │   │    └── GrowthController.java
+ │   ├── service/
+ │   │    └── GrowthService.java
+ │   ├── model/
+ │   │    └── AuditResult.java
+ │   └── GrowSenseApplication.java
+ ├── src/main/resources/
+ │   └── application.properties
+ └── pom.xml
+
+Updated Frontend:
+src/
+ ├─ components/
+ │   ├─ Navbar.jsx
+ │   ├─ DashboardCard.jsx
+ │
+ ├─ pages/
+ │   ├─ Overview.jsx
+ │   ├─ Performance.jsx
+ │   ├─ Users.jsx
+ │   ├─ Ideas.jsx
+ │
+ ├─ App.jsx
+ ├─ main.jsx
