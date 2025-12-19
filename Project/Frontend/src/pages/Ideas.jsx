@@ -1,14 +1,20 @@
 import React from "react";
 import "./Ideas.css";
+
 export default function Ideas() {
   return (
-    <div>
-      <h2>Startup Ideas</h2>
-      <ul>
-        <li>AI Resume Analyzer</li>
-        <li>Micro-SaaS for Freelancers</li>
-        <li>Startup Validation Tool</li>
-      </ul>
+    <div className="ideas">
+      <h1>Startup Ideas</h1>
+
+      <div className="idea-card">
+        <h3>AI Pitch Analyzer</h3>
+        <p>Analyzes startup pitches and predicts investor interest.</p>
+      </div>
+
+      <div className="idea-card">
+        <h3>Market Gap Finder</h3>
+        <p>Uses trends to suggest underserved markets.</p>
+      </div>
     </div>
   );
 }
