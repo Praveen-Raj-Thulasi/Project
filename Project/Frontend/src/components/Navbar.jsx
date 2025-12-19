@@ -1,12 +1,16 @@
 import React from "react";
 import "./Navbar.css";
-export default function Navbar({ setPage }) {
+
+export default function Navbar() {
   return (
-    <nav>
-      <button onClick={() => setPage("dashboard")}>Dashboard</button>
-      <button onClick={() => setPage("ideas")}>Ideas</button>
-      <button onClick={() => setPage("performance")}>Performance</button>
-      <button onClick={() => setPage("users")}>Users</button>
-    </nav>
+    <div className="navbar">
+      <h2>Startup Insights</h2>
+      <div className="nav-links">
+        <a href="/">Dashboard</a>
+        <a href="/ideas">Ideas</a>
+        <a href="/users">Users</a>
+        <a href="/performance">Performance</a>
+      </div>
+    </div>
   );
 }
