@@ -1,4 +1,5 @@
 import React from "react";
+import "./Dashboard.css";
 export default function DashboardCard({ title, value }) {
   return (
     <div style={{
