@@ -1,0 +1,12 @@
+.ideas {
+  padding: 30px;
+}
+
+.idea-card {
+  background: white;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-left: 5px solid var(--secondary);
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
